@@ -59,101 +59,115 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Sofia Mendez",
+			position: "Founder",
+			company: "Brightspace AI",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Rivendell cut our admin time by at least 20 hours a month. Signing up took less than a day, and everything integrates with payroll. That’s time I can now spend actually growing the business.",
+			image: "/generated/image-a-young-latina-woman-startup-founder-smi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Terrence Hall",
+			position: "COO",
+			company: "Atlas Robotics",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"One of our engineers got hurt biking to work. Five minutes later, he texts me that Rivendell already handled the claim. No forms, no stress, and no surprise bills. That gave us real peace of mind.",
+			image: "/generated/image-a-middle-aged-black-man-a-business-execu.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Grace Lin",
+			position: "Finance Manager",
+			company: "NextLeap Solutions",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We saved over $8,400 in potential out-of-pocket costs last quarter alone—mostly due to Rivendell’s bill negotiation and flexible budget. Our team actually uses it, and finance loves the ROI.",
+			image: "/generated/image-an-asian-woman-finance-manager-reviewing.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why startups choose Rivendell"
+	subtitle="Comprehensive health, whole-team simplicity, and control of every dollar. Here’s what makes us different."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Primary care without limits",
+			description: "Your team can access trusted providers every day, not just when something goes wrong. No delays, no gatekeeping."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Zero-deductible, cost-capped coverage",
+			description: "We handle bills over $500 directly. You pay one simple copay, which can be covered by your monthly health budget."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Clear path to long-term health",
+			description: "Quarterly blood panels and medical-grade DNA testing give every employee a baseline and personal health plan from day one."
+		},
+		{
+			title: "We handle the big bills for you",
+			description: "When unexpected costs hit, we step in. We negotiate, cover, and pay—often reducing employee costs by up to 90%."
+		},
+		{
+			title: "A monthly $300 wellness budget",
+			description: "Use it on what your team needs most: VO2 tests, dental, vision, sleep tech, and more. Unused funds carry over, up to $3,300 per year."
+		},
+		{
+			title: "Care you can actually trust",
+			description: "We work with vetted providers and link records across visits so your team can finally see the full picture of their health in one place."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
+	subtitle="Real-world ways your team benefits"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Longevity planning for every employee",
+			description: "DNA health tests and quarterly blood panels give your team personalized health insights—so they stay healthy and feel valued year-round.",
+			image: "/generated/image-a-young-startup-employee-with-a-look-of-.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/longevity-health-benefits",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Accident support with real cost advocacy",
+			description: "If an accident happens, we handle the bills, negotiate costs, and pay the provider—so your team stays focused on recovery, not paperwork.",
+			image: "/generated/image-in-a-modern-and-vibrant-office-setting-a.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/accident-cost-advocacy",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Flexible wellness budget, real results",
+			description: "From wearable sleep trackers to therapy sessions, every employee gets $300 monthly for the health tools and care they value most.",
+			image: "/generated/image-a-startup-employee-is-in-a-bright-and-op.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/flexible-health-budget",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Tired of health benefits that just don't work?"
+  subtitle="Smarter benefits, with no surprise bills or support gaps."
+  description="Rivendell gives your team unlimited primary care, zero-deductible coverage, and a $300 flexible budget—starting today. No paperwork headaches, no out-of-network hassles, just better health care for your startup."
+  imageSrc="/generated/image-a-cheerful-startup-team-member-beaming-w.webp"
+  callsToAction={[
+    {
+      label: 'Start your plan today',
+      href: '/get-started',
+      variant: 'primary',
+    },
+    {
+      label: 'Talk to our team',
+      href: '/contact-sales',
+      variant: 'secondary',
+    },
+  ]}
+/>

@@ -10,7 +10,20 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: "Health and wellbeing",
+    description: "We care deeply about putting better care in people’s lives—and that starts with our own teammates."
+  },
+  {
+    title: "Diversity of perspective",
+    description: "Our best ideas come from welcoming different lived experiences. We build for real people, so we surround ourselves with them."
+  },
+  {
+    title: "Proactive leadership",
+    description: "Everyone here is trusted to lead. That means asking the hard questions, raising the standard, and helping each other grow."
+  }
+] }: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 

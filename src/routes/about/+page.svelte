@@ -26,53 +26,74 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  title="Better health benefits for startups"
+  subtitle="Unlimited primary care, zero deductibles, and $300 monthly health spend—simple pricing, no surprises"
+  imageSrc="/generated/image-a-diverse-group-of-startup-team-members-.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We started Rivendell after struggling to find health benefits that actually worked for our own startup teams. Everything was either outdated, overloaded with fine print, or designed for giant corporations. We talked to dozens of founders facing the same issue—burning cash on plans their employees rarely used, or skipping coverage entirely and hoping for the best. It didn’t sit right with us.",
+		"So we built a health plan designed specifically for startups. Something clear, proactive, and built around what employees really need: unlimited access to primary care, preventative tools that help them stay ahead of issues, and accident coverage that doesn’t come with scary bills. No red tape, no guessing, just one easy-to-manage plan with built-in support and predictable pricing.",
+		"What makes Rivendell different is what we've included—and what we’ve left out. There are no deductibles and no surprises. Every employee gets a monthly health budget to spend how they want—on rings, beds, therapy, dental, and more. We use real diagnostics to support long-term health and longevity, and if something major happens, we negotiate the bills so your employees don’t have to. We're building health benefits that teams use, value, and trust—because startups deserve better."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} />
+<Culture />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="The people building Rivendell."
+  stakeholders={[
+    {
+      name: "David Wilson",
+      position: "Co-Founder & CEO",
+      bio: "Purposeful leader rethinking healthcare for modern teams.",
+      image: "/generated/image-headshot-portrait-of-a-confident-male-st.webp"
+    },
+    {
+      name: "Jessica Hayes",
+      position: "Co-founder & COO",
+      bio: "Operational architect turning complexity into effortless care.",
+      image: "/generated/image-headshot-portrait-of-a-smiling-female-st.webp"
+    },
+    {
+      name: "Constanza Perez",
+      position: "Head of Product",
+      bio: "Designs proactive health experiences employees love to use.",
+      image: "/generated/image-headshot-portrait-of-a-female-product-le.webp"
+    },
+    {
+      name: "Meera Desai",
+      position: "Head of Engineering",
+      bio: "Builds secure, seamless systems for smarter healthcare.",
+      image: "/generated/image-headshot-portrait-of-a-female-engineerin.webp"
+    },
+    {
+      name: "Benjamin Weber",
+      position: "Backend Engineer",
+      bio: "Makes health data work for the people it serves.",
+      image: "/generated/image-headshot-portrait-of-a-thoughtful-male-b.webp"
+    },
+    {
+      name: "Jacob Jones",
+      position: "Frontend Engineer",
+      bio: "Crafts interfaces that make health benefits actually usable.",
+      image: "/generated/image-headshot-portrait-of-a-cheerful-male-fro.webp"
+    },
+    {
+      name: "Maria Rodrigues",
+      position: "Product Designer",
+      bio: "Turns care journeys into intuitive digital experiences.",
+      image: "/generated/image-headshot-portrait-of-a-creative-female-p.webp"
+    }
+  ]}
 />
+
 
 <StakeholderGrid
 	stakeholderType="investor"
@@ -96,7 +117,12 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Let’s rethink health benefits for startups"
+	subtitle="Ready to put health first?"
+	description="Get in touch to join the Rivendell waitlist, connect with our sales team, or apply for open roles. We’re building health plans that actually work for startups—making wellbeing real, affordable, and simple. Email sales@rivendell.health, join the waitlist, or explore careers—your team’s better benefits start here."
+	callsToAction={[
+	  { href: 'mailto:sales@rivendell.health', label: 'Contact sales', variant: 'secondary' },
+	  { href: '/waitlist', label: 'Join the waitlist', variant: 'primary' },
+	  { href: '/careers', label: 'Explore careers', variant: 'tertiary' },
+	]}
 />

@@ -35,140 +35,127 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
-		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
-			}
-		],
-		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
-			}
-		]
-	}: {
+		title = "Health benefits your team will actually use",
+    subtitle = "Premium healthcare, zero deductibles, unlimited primary care, and real preventive care. Simple pricing, no surprise bills.",
+    tierNames = ["Startup Health Plan", "Scaleup Health Plan"],
+    features = [
+        {
+            name: "Unlimited primary care",
+            tiers: {
+                "Startup Health Plan": true,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Zero-deductible coverage (big bills covered, simple copay)",
+            tiers: {
+                "Startup Health Plan": true,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Personalized longevity planning (DNA, quarterly labs)",
+            tiers: {
+                "Startup Health Plan": true,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Flexible $300/month health budget (rolls over up to $3,300/year)",
+            tiers: {
+                "Startup Health Plan": "$300/mo per employee",
+                "Scaleup Health Plan": "$300+/mo per employee*"
+            }
+        },
+        {
+            name: "Comprehensive accident coverage",
+            tiers: {
+                "Startup Health Plan": true,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Cost advocacy (we negotiate & pay big bills)",
+            tiers: {
+                "Startup Health Plan": true,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Pre-vetted provider network",
+            tiers: {
+                "Startup Health Plan": true,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "White-glove onboarding",
+            tiers: {
+                "Startup Health Plan": false,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "ACA compliance & multi-state support",
+            tiers: {
+                "Startup Health Plan": false,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Dedicated account manager",
+            tiers: {
+                "Startup Health Plan": false,
+                "Scaleup Health Plan": true
+            }
+        },
+        {
+            name: "Migration from existing provider",
+            tiers: {
+                "Startup Health Plan": false,
+                "Scaleup Health Plan": true
+            }
+        }
+    ],
+    tiers = [
+        {
+            name: "Startup Health Plan",
+            monthlyPrice: 1000,
+            yearlyPrice: 1000, // no difference, single price point
+            description: "The all-in-one health plan for teams under 50 in California and New York. Zero deductibles, unlimited primary care, real preventive care, and a flexible budget—simple pricing, no surprises.",
+            features: [
+                "Unlimited access to primary care",
+                "Zero-deductible coverage for bills over $500",
+                "$300/month flexible health budget (rolls over)",
+                "Personalized longevity planning (DNA, labs, tracking)",
+                "Big bills handled and negotiated for you",
+                "Pre-vetted provider access"
+            ],
+            cta: {
+                label: "Get started",
+                href: "mailto:sales@rivendell.health"
+            },
+            highlight: true
+        },
+        {
+            name: "Scaleup Health Plan",
+            monthlyPrice: null,
+            yearlyPrice: null,
+            description: "For teams of 50+ or multi-state offices. Custom plan design, ACA compliance, migration from your old provider, and dedicated account management—tailored to your scale.",
+            features: [
+                "Everything in Startup plan, plus:",
+                "Multi-state, ACA-compliant coverage",
+                "White-glove onboarding",
+                "Dedicated account manager",
+                "Migration from your current provider"
+            ],
+            cta: {
+                label: "Contact sales",
+                href: "mailto:sales@rivendell.health"
+            }
+        }
+    ]
+}: {
 		title?: string;
 		subtitle?: string;
 		tiers?: PricingTier[];

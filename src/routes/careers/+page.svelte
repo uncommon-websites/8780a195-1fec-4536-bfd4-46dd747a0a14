@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Unlimited primary care",
+    description: "In-person and virtual doctor visits, 7 days a week, same-day access—no copays or waiting rooms.",
+    icon: IconHeart
+  },
+  {
+    title: "Zero-deductible & accident coverage",
+    description: "We pay big bills over $500 and handle negotiation—your out of pocket is simple, predictable, and fully covered by your flexible health budget.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Flexible health budget",
+    description: "$300/month per employee, rolls over up to $3,300 a year. Use it for longevity, vision, dental, wearables, and more.",
+    icon: IconUsers
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,79 +121,86 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Michael Chen",
+    position: "Senior Developer",
+    company: "Engineering Team",
+    quote:
+      "At Rivendell, I’m trusted to solve real problems and given space to actually innovate. The culture here values curiosity and learning—everyone offers support when you need it, and you’re encouraged to take ownership beyond your job title. It’s the first company I’ve worked at where making things better for our members truly feels like a team passion, not just a mission statement.",
+    image: "/generated/image-a-professional-asian-american-male-engin.webp"
+  },
+  {
+    name: "Priya Sharma",
+    position: "Product Designer",
+    company: "Design Team",
+    quote:
+      "I joined Rivendell looking for real creative challenge, and stayed because I found so much more. Our team is refreshingly collaborative and every voice is heard, no matter your title. I’m constantly learning new skills and my ideas shape the product in visible ways. Plus, the flexibility and genuine care for well-being are unlike any place I’ve worked before.",
+    image: "/generated/image-a-professional-south-asian-woman-designe.webp"
+  },
+  {
+    name: "Marcus Johnson",
+    position: "Marketing Lead",
+    company: "Marketing Team",
+    quote:
+      "Rivendell’s leadership actually invests in my growth—be it mentorship, new responsibilities, or learning opportunities. The environment is open and inclusive, and there’s always room to try, fail, and succeed together. I’ve grown from a coordinator to a team lead in just a few years. It’s a rare mix of challenge and support that makes you excited for Mondays.",
+    image: "/generated/image-a-professional-black-male-marketing-lead.webp"
+  }
+];
+
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply",
+    description: "Send us your application and a brief note about what excites you about Rivendell."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "We schedule a short call to learn more about your experience and motivation."
+  },
+  {
+    step: 3,
+    title: "Team fit & work sample",
+    description: "Spend time solving a real-world scenario with future teammates—async or live."
+  },
+  {
+    step: 4,
+    title: "Decision",
+    description: "We let you know our decision within a week of your last conversation—honest, prompt communication guaranteed."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Health-first mindset",
+    description: "We don’t just build health plans—we actually care about your well-being and use our own benefit."
+  },
+  {
+    icon: IconUsers,
+    title: "Kindness with rigor",
+    description: "We treat each other well while upholding a high bar for quality and thoughtful work."
+  },
+  {
+    icon: IconBriefcase,
+    title: "Bias for action",
+    description: "We move quickly, learn fast, and expect ownership and initiative from everyone."
+  },
+  {
+    icon: IconGlobe,
+    title: "Collaborative impact",
+    description: "We work cross-functionally and celebrate building meaningful, lasting products for teams."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Redefine health. Empower small teams."
+	subtitle="Build with a mission-driven team improving lives through care"
+	imageSrc="/generated/image-a-diverse-startup-team-collaborating-in-.webp"
 />
 
 <!-- Why Join Us Section -->
