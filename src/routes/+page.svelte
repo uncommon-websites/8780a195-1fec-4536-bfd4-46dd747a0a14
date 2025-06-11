@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+    centered={true}
+    title="Health benefits your team will actually use"
+    subtitle="Unlimited primary care, zero-deductible coverage, personalized longevity tools, and a flexible health budget—all in one simple plan for startups."
+    customers={[
+        {
+            name: "Emily Chen",
+            position: "Founder, LemonTree Labs",
+            imageSrc: "/generated/image-a-young-female-founder-sits-confidently-.webp"
+        },
+        {
+            name: "Michael Ruiz",
+            position: "CTO, Orbit Analytics",
+            imageSrc: "/generated/image-a-middle-aged-male-cto-is-smiling-warmly.webp"
+        },
+        {
+            name: "Gabriela Torres",
+            position: "Product Manager, Vela Tech",
+            imageSrc: "/generated/image-a-young-hispanic-woman-product-manager-s.webp"
+        },
+        {
+            name: "Theo Williams",
+            position: "HR Manager, Vertex Co.",
+            imageSrc: "/generated/image-a-black-male-hr-manager-poses-in-a-relax.webp"
+        },
+        {
+            name: "Lucy Kim",
+            position: "Engineer, Nova Health",
+            imageSrc: "/generated/image-an-asian-female-engineer-is-positioned-i.webp"
+        }
+    ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+  label="Trusted by fast-growing startups"
+  logoUrls={[
+    'https://logo.clearbit.com/fivetran.com',
+    'https://logo.clearbit.com/linear.app',
+    'https://logo.clearbit.com/webflow.com',
+    'https://logo.clearbit.com/vanta.com'
+  ]}
+/>
 
 <Summary
 	generating
